@@ -3,12 +3,9 @@ const Navbar = () => {
   return (
     <div>
       <p>hello world</p>
-      <br></br>
-      <Link to="/">Helllo</Link>
-      <br></br>
-      <Link to="/about">World</Link>
-      <br></br>
-      <Link to="/careers">Helo World</Link>
+      <Link to="/">Home</Link>
+      <Link to="/about">About</Link>
+      <Link to="/careers">Careers</Link>
     </div>
   );
 };
